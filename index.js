@@ -5,7 +5,7 @@ import morgan from 'morgan';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import paletasRouter from './src/routes/paletas.routes.js';
-
+import './src/database/database.js'
 
 const app = express();
 
